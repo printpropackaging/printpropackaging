@@ -174,7 +174,7 @@ const MainForm = ({ slug, title }) => {
                 <label className="font-semibold text-black"><i className="ri-checkbox-multiple-blank-line text-lg"></i> Box Size:</label>
                 <div className="flex space-x-4">
                     <input
-                        type="text"
+                        type="number"
                         name="length"
                         placeholder="Length"
                         value={formData.length}
@@ -182,7 +182,7 @@ const MainForm = ({ slug, title }) => {
                         className="w-full border border-gray-300 p-1.5 rounded text-black"
                     />
                     <input
-                        type="text"
+                        type="number"
                         name="width"
                         placeholder="Width"
                         value={formData.width}
@@ -190,7 +190,7 @@ const MainForm = ({ slug, title }) => {
                         className="w-full border border-gray-300 p-1.5 rounded text-black"
                     />
                     <input
-                        type="text"
+                        type="number"
                         name="height"
                         placeholder="Height"
                         value={formData.height}
@@ -206,7 +206,7 @@ const MainForm = ({ slug, title }) => {
                 <label className="font-semibold text-black"> <i className="ri-microsoft-line text-lg"></i> Qty:</label>
                 <div className="flex space-x-4">
                     <input
-                        type="text"
+                        type="number"
                         name="qty1"
                         placeholder="Qty 1"
                         value={formData.qty1}
@@ -214,7 +214,7 @@ const MainForm = ({ slug, title }) => {
                         className="w-full border border-gray-300 p-1.5 rounded text-black"
                     />
                     <input
-                        type="text"
+                        type="number"
                         name="qty2"
                         placeholder="Qty 2"
                         value={formData.qty2}
@@ -222,7 +222,7 @@ const MainForm = ({ slug, title }) => {
                         className="w-full border border-gray-300 p-1.5 rounded text-black"
                     />
                     <input
-                        type="text"
+                        type="number"
                         name="qty3"
                         placeholder="Qty 3"
                         value={formData.qty3}
@@ -233,7 +233,7 @@ const MainForm = ({ slug, title }) => {
             </div>
 
             <div>
-                <h1 className="font-semibold text-black"> <i className="ri-archive-2-line text-lg"></i> Material:</h1>
+                <h1 className="font-semibold text-black"> <i className="ri-archive-2-line text-lg"></i> More Info:</h1>
                 <div className="grid grid-cols-12 gap-2">
                     <select
                         name="printSide"
@@ -257,6 +257,7 @@ const MainForm = ({ slug, title }) => {
                         <option value="Matte">Matte</option>
                         <option value="Gloss">Gloss</option>
                         <option value="Clear Coat">Clear Coat</option>
+                        <option value="Soft Touch">Soft Touch</option>
                     </select>
                 </div>
             </div>
@@ -292,7 +293,7 @@ const MainForm = ({ slug, title }) => {
                             onChange={handleInputChange}
                             className="border p-1.5 col-span-12 md:col-span-6 text-black placeholder:text-black"
                         >
-                            <option value="" disabled selected>Inside Colors</option>
+                            <option value="" disabled selected>Outside Colors</option>
                             <option value="1 Color">1 Color</option>
                             <option value="2 Color">2 Color</option>
                             <option value="3 Color">3 Color</option>
@@ -304,7 +305,7 @@ const MainForm = ({ slug, title }) => {
                             onChange={handleInputChange}
                             className="border p-1.5 col-span-12 md:col-span-6 text-black placeholder:text-black"
                         >
-                            <option value="" disabled selected>Outside Colors</option>
+                            <option value="" disabled selected>Inside Colors</option>
                             <option value="1 Color">1 Color</option>
                             <option value="2 Color">2 Color</option>
                             <option value="3 Color">3 Color</option>
@@ -316,7 +317,7 @@ const MainForm = ({ slug, title }) => {
 
             {/* Material Type */}
             <div className="space-y-1">
-                <h1 className="font-semibold text-black"> <i className="ri-archive-2-line text-lg"></i> Material 2:</h1>
+                <h1 className="font-semibold text-black"> <i className="ri-archive-2-line text-lg"></i> Material: <span className='text-xs'>(optional)</span> </h1>
                 <div className="flex space-x-4">
                     <label className='text-gray-700'>
                         <input
