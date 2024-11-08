@@ -103,8 +103,8 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div className="text-white text-center py-4 text-sm border-t">
-                    © {new Date().getFullYear()} All Right Reserved! and Made with 💙 by <a href="https://developortayyab.web.app/" className="text-white ml-1 underline" target="_blank" rel="noopener noreferrer">Tayyab</a>
+                 <div className="text-white text-center py-4 text-sm border-t">
+                    © {new Date().getFullYear()} <a href="https://printpropackaging.com/" className='underline underline-offset-4'>PrintPro Packaging.</a> All Right Reserved!
                 </div>
             </footer>
         </>
