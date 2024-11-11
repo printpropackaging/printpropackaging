@@ -61,6 +61,7 @@ export default function NavMenu({ setSidebarOpen }) {
                 aria-haspopup="true"
                 aria-expanded={open ? 'true' : undefined}
                 onClick={handleClick}
+                className="Poppins"
             >
                 Boxes By Style
                 <i className="ri-arrow-down-s-line text-xl"></i>

@@ -47,13 +47,14 @@ export default function NavMenu3({ setSidebarOpen }) {
                 aria-haspopup="true"
                 aria-expanded={open ? 'true' : undefined}
                 onClick={handleClick}
+                className="Poppins"
             >
                 Boxes By Material
                 <i className="ri-arrow-down-s-line text-xl"></i>
             </Button>
 
             <Menu
-                sx={{zIndex: 999999999999999999}}
+                sx={{ zIndex: 999999999999999999 }}
                 id="basic-menu"
                 anchorEl={anchorEl}
                 open={open}

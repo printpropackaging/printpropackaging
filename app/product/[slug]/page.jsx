@@ -31,7 +31,7 @@ export default async function Product({ params }) {
 
     return (
         <>
-            <PageTitle currentPage={"Product"} currentPageTitle={productData.title} prevPage="Home" />
+            <PageTitle currentPage={"Product"} currentPageTitle={productData?.title} prevPage="Home" />
             <section className='md:px-[var(--paddingX)] md:py-20 px-4 pt-10 pb-20'>
 
                 <div className="flex justify-around flex-wrap md:gap-0 gap-5">

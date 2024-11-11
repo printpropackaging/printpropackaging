@@ -19,10 +19,10 @@ const CategoryDetails = async ({ slug }) => {
             <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center md:space-x-10 px-4">
                
                 <div className="md:w-1/2 space-y-3">
-                    <h1 className="text-4xl font-bold text-gray-900">{product.title}</h1>
-                    <p className="text-lg text-gray-600">{product.description}</p>
+                    <h1 className="text-4xl font-bold text-gray-900">{product?.title}</h1>
+                    <p className="text-lg text-gray-600">{product?.description}</p>
                     <div className="w-full md:h-[70vh] h-full">
-                        <Image src={urlFor(product.image).url()} alt={product.title} width={200} height={100} className="w-full h-full object-fill" />
+                        <Image src={urlFor(product?.image).url()} alt={product?.title} width={200} height={100} className="w-full h-full object-fill" />
                     </div>
                 </div>
 

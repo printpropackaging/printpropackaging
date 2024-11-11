@@ -17,7 +17,7 @@ const MainForm = ({ slug, title }) => {
         printSide: 'Outside',
         finishing: '',
         unit: 'in',
-        material: 'Cardboard',
+        material: '',
         addOns: {
             spotUV: false,
             emboss: false,
@@ -427,9 +427,9 @@ const MainForm = ({ slug, title }) => {
             {/* Contact Info */}
             <div className="space-y-1">
 
-                <h1 className="font-semibold text-black mt-1"> <i className="ri-user-line text-lg"></i> Personal Details</h1>
+                <h1 className="font-semibold text-black mt-1"> <i className="ri-user-line text-lg"></i> Personal Details <span className='text-red-600'>*</span> </h1>
 
-                <div className="grid grid-cols-12 gap-4">
+                <div className="grid grid-cols-12 gap-1 md:gap-4">
                     <input
                         required
                         type="text"

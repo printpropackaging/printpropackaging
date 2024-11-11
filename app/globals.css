@@ -8,6 +8,7 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
+  /* border: 1px solid red; */
 }
 
 :root {
@@ -21,6 +22,9 @@
   --dark_secondary: #07af8c;
 }
 
+.Poppins{
+  font-family: "Poppins", sans-serif;
+}
 
 
 body {
@@ -30,7 +34,7 @@ body {
 }
 
 ::-webkit-scrollbar {
-  width: 7px;
+  width: 10px;
 }
 
 /* Track */
@@ -40,7 +44,7 @@ body {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #888;
+  background: #07af8c;
 }
 
 

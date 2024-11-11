@@ -91,6 +91,9 @@ const Footer = () => {
                                 <a href="https://www.linkedin.com/company/printpro-packaging?trk=public_profile_experience-item_profile-section-card_image-click">
                                     <i className="text-2xl ri-linkedin-box-fill"></i>
                                 </a>
+                                <a href="https://wa.me/17206049062" target="_blank">
+                                    <i className="text-2xl ri-whatsapp-line"></i>
+                                </a>
                             </div>
                         </div>
                         <div className="payment_link flex justify-center flex-wrap items-center gap-5">
@@ -103,7 +106,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                 <div className="text-white text-center py-4 text-sm border-t">
+                <div className="text-white text-center py-4 text-sm border-t">
                     © {new Date().getFullYear()} <a href="https://printpropackaging.com/" className='underline underline-offset-4'>PrintPro Packaging.</a> All Right Reserved!
                 </div>
             </footer>

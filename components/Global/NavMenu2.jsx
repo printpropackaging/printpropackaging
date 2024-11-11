@@ -91,19 +91,20 @@ export default function NavMenu2({ setSidebarOpen }) {
     return (
         <div>
             <Button
-                sx={{ color: 'black',fontWeight: 700 }}
+                sx={{ color: 'black', fontWeight: 700 }}
                 id="basic-button"
                 aria-controls={open ? 'basic-menu' : undefined}
                 aria-haspopup="true"
                 aria-expanded={open ? 'true' : undefined}
                 onClick={handleClick}
+                className="Poppins"
             >
                 Boxes By Industry
                 <i className="ri-arrow-down-s-line text-xl"></i>
             </Button>
 
             <Menu
-                sx={{zIndex: 999999999999999999}}
+                sx={{ zIndex: 999999999999999999 }}
                 id="basic-menu"
                 anchorEl={anchorEl}
                 open={open}
