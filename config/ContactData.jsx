@@ -18,7 +18,7 @@ export const ContactInfo = [
         id: 2,
         icon: <i className="ri-mail-line"></i>,
         title: "Email",
-        description: "sales@printpropackaging",
+        description: "sales@printpropackaging.com",
     },
 
 
