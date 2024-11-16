@@ -33,6 +33,7 @@ const Products = async ({ params }) => {
     }`;
 
     const products = await client.fetch(query);
+    // console.log(products);
 
     return (
         <>
