@@ -7,17 +7,12 @@ const nextConfig = {
         remotePatterns: [
             {
                 protocol: 'https',
-                hostname: 'cdn.sanity.io',
+                hostname: 'cdn.sanity.io', 
             },
 
             {
                 protocol: 'https',
                 hostname: 'blackbirdpackaging.com',
-            },
-
-            {
-                protocol: 'https',
-                hostname: 'printpropackaging.vercel.app',
             },
         ]
     }
