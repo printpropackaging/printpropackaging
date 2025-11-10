@@ -88,7 +88,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
-        <link rel="apple-touch-icon" href="/Logo.png" />
+        <link rel="apple-touch-icon" href="./favicon.svg" />
         <link rel="manifest" href="/manifest.json" />
 
         {/* Optimized font loading */}
