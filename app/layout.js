@@ -50,7 +50,7 @@ export const metadata = {
     siteName: "PrintPro Packaging",
     images: [
       {
-        url: "/Logo.png",
+        url: "/favicon.svg",
         width: 1200,
         height: 630,
         alt: "PrintPro Packaging - Custom Boxes Wholesale",
@@ -62,7 +62,7 @@ export const metadata = {
     title: "Custom Boxes Wholesale - Manufacturer and Supplier in USA",
     description:
       "PrintPro Packaging is a leading company that prints and packages custom boxes for Retail, CBD, Cosmetics, Food, Gifts, etc in USA. Get free Quote!",
-    images: ["/Logo.png"],
+    images: ["/favicon.svg"],
     creator: "@printpropackaging",
   },
   robots: {

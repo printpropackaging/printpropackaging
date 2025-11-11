@@ -8,7 +8,7 @@ export const OrganizationSchema = () => {
     name: "PrintPro Packaging",
     alternateName: "PrintProPackaging",
     url: "https://printpropackaging.com",
-    logo: "https://printpropackaging.com/Logo.png",
+    logo: "https://printpropackaging.com/favicon.svg",
     description:
       "Leading custom packaging solutions provider in USA. Specializing in custom boxes for Retail, CBD, Cosmetics, Food, Gifts, and more.",
     foundingDate: "2020",
@@ -65,7 +65,7 @@ export const BlogPostSchema = ({ blog }) => {
       name: "PrintPro Packaging",
       logo: {
         "@type": "ImageObject",
-        url: "https://printpropackaging.com/Logo.png",
+        url: "https://printpropackaging.com/favicon.svg",
       },
     },
     mainEntityOfPage: {
@@ -106,7 +106,7 @@ export const BlogListingSchema = ({ blogs }) => {
       name: "PrintPro Packaging",
       logo: {
         "@type": "ImageObject",
-        url: "https://printpropackaging.com/Logo.png",
+        url: "https://printpropackaging.com/favicon.svg",
       },
     },
     blogPost: blogs.map((blog) => ({

@@ -20,7 +20,7 @@ export const AdvancedMetadata = ({
     ? image.startsWith("http")
       ? image
       : `${siteUrl}${image}`
-    : `${siteUrl}/Logo.png`;
+    : `${siteUrl}/favicon.svg`;
 
   return (
     <>
@@ -135,7 +135,7 @@ export const CoreWebVitalsOptimization = () => {
   return (
     <>
       {/* Preload critical resources */}
-      <link rel="preload" href="/Logo.png" as="image" type="image/png" />
+      <link rel="preload" href="/favicon.svg" as="image" type="image/png" />
       <link
         rel="preload"
         href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
