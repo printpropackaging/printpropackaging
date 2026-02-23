@@ -1,5 +1,4 @@
 'use client';
-import Accordions from '@/components/Global/Accordions';
 import PageTitle from '@/components/Global/pageTitle';
 import { ContactInfo } from '@/config/ContactData';
 import { useRouter } from 'next/navigation'

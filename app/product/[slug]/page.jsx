@@ -43,7 +43,7 @@ export default async function Product({ params }) {
                 <div className="text-gray-600 body-font">
                     <div className="flex pt-12 md:flex-row flex-col items-start gap-6 text-sm">
                         <div className='w-full md:w-[40%]'>
-                            <ProductSwiper images={productData.images} />
+                            <ProductSwiper images={productData?.images} />
                             {
                                 productData.description && <div>
                                     <p className='leading-[1.8] my-4'>{productData.description}</p>
